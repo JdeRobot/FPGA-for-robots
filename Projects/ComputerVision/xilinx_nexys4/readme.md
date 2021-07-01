@@ -29,3 +29,13 @@ There is the regs folder in which has the 2 versions of the OV7670 registers.
 The original one, and the one copied from the linux driver:
 
 https://github.com/yandex/smart/blob/master/drivers/media/i2c/ov7670.c
+
+## ov7670_ObjectDetect
+
+Same as Alhambra II version, but for Nexys4DDR.
+
+As there are more pins available on the Nexys 4 all the data pins of the OV7670 camera will be used.
+
+The Nexys4DDR board has twice as many LEDs as the Alhambra II, therefore, it will have twice the precision to locate the object's centroid.
+
+![OV7670 camera and Nexys4DDR pin connection](https://github.com/JdeRobot/FPGA-robotics/blob/javi_garci/Projects/ComputerVision/xilinx_nexys4/ov7670_ObjectDetect/OV7670_Nexys_interface.png)
